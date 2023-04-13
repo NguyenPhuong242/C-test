@@ -90,6 +90,7 @@ void Tester_checkSingleTest(int argc, char *argv[])
     TestFunction *test = (TestFunction *)address;
     fprintf(stderr, "Testing %s: ", argv[3]);
     fflush(stderr);
+    fprintf(stderr, "%p\n", test);
     test();
     fprintf(stderr, "OK\n");
     exit(EXIT_SUCCESS);
