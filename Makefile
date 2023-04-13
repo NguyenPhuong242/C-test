@@ -1,5 +1,5 @@
 CC = clang
-CFLAGS = -std=c99 -W -Wall -Werror -pedantic -Wfatal-errors 
+CFLAGS = -std=c99 -W -Wall -Werror -pedantic -Wfatal-errors -g
 CFLAGS += -D_XOPEN_SOURCE=700 # we use popen()
 LIBS = # -lm
 

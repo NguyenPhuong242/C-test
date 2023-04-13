@@ -1,1 +1,3 @@
-Main.o: Main.c Tester.h
+-MM
+Main.c
+autotest.c
